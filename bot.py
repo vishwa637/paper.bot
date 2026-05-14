@@ -8,13 +8,13 @@ from flask import Flask, request
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = "8105173071:AAGazfT6NIT3VqT6iayapnGpmm9alc9XvVY"
 LOGO_FILE = "logo.png"
 ADMIN_ID = 8486116629 # << උඹේ ID එක දාපන්
 USERS_FILE = "users.json"
 
 PORT = int(os.environ.get("PORT", 10000))
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL") # https://your-app.onrender.com
+WEBHOOK_URL = "https://paper-bot-5ddc.onrender.com" # https://your-app.onrender.com
 
 SUBJECTS = {
     "physics": {
