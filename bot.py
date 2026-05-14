@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 LOGO_FILE = "logo.png"
-ADMIN_ID = 123456789 # << උඹේ ID එක දාපන්
+ADMIN_ID = 8486116629 # << උඹේ ID එක දාපන්
 USERS_FILE = "users.json"
 
 PORT = int(os.environ.get("PORT", 10000))
